@@ -165,11 +165,11 @@
 			// hide / show field
 			if( visibility ) {
 				
-				acf.conditional_logic.showField( $target );					
+				acf.conditional_logic.showField( $target, key );					
 			
 			} else {
 				
-				acf.conditional_logic.hideField( $target );
+				acf.conditional_logic.hideField( $target, key );
 			
 			}
 			
